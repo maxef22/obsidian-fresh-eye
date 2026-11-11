@@ -6,7 +6,7 @@
 
 ## Установка
 
-**Из релиза.** Скачать из последнего релиза `main.js`, `manifest.json` и `styles.css` и положить в `<хранилище>/.obsidian/plugins/fresh-eye/`. Затем в Obsidian: **Настройки → Сторонние плагины → включить «Свежий взгляд»**.
+**Из релиза. (https://github.com/maxef22/obsidian-fresh-eye/releases/)** Скачать из последнего релиза `main.js`, `manifest.json` и `styles.css` и положить в `<хранилище>/.obsidian/plugins/fresh-eye/`. Затем в Obsidian: **Настройки → Сторонние плагины → включить «Свежий взгляд»**.
 
 **Вручную при разработке.** Скопировать те же три файла из корня репозитория после `npm run build`.
 
