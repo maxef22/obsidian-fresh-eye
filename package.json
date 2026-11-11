@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-fresheye",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Obsidian plugin that finds similar-sounding words placed too close to each other",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "test": "node --test --test-isolation=none \"test/*.test.ts\"",
+    "build": "esbuild src/plugin/main.ts --bundle --format=cjs --target=es2018 --external:obsidian --external:electron --external:@codemirror/view --external:@codemirror/state --outfile=main.js",
+    "dev": "esbuild src/plugin/main.ts --bundle --format=cjs --target=es2018 --external:obsidian --external:electron --external:@codemirror/view --external:@codemirror/state --outfile=main.js --watch",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "tables": "node tools/gen-tables.mjs",
+    "fixtures": "node tools/gen-fixtures.mjs",
+    "check": "node tools/check-text.mjs",
+    "stats": "node tools/stats.mjs",
+    "report": "node tools/report.mjs"
+  },
+  "devDependencies": {
+    "@codemirror/state": "^6.7.6",
+    "@codemirror/view": "^6.43.13",
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
+  }
+}

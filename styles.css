@@ -1,0 +1,15 @@
+.fe-hit {
+  background-color: rgba(235, 20, 255, 0.1);
+  border-bottom: 1px dashed rgba(235, 20, 255, 0.55);
+  border-radius: 2px;
+  cursor: help;
+}
+
+.fe-hit-strong {
+  background-color: rgba(235, 20, 255, 0.22);
+  border-bottom-color: rgba(235, 20, 255, 0.85);
+}
+
+.fe-status {
+  cursor: default;
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fresh-eye",
+  "name": "Свежий взгляд",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Находит похожие по звучанию слова, стоящие слишком близко друг к другу, и подчёркивает тавтологии.",
+  "author": "Maxim Efremov",
+  "isDesktopOnly": false
+}
